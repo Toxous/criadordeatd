@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="formssi.css">
+    </head>
+    <body>
+        <div class="preenchimento">
+            <script src="formssi.js"></script>
+            <p>Atividade:</p>
+            <input id="nome" type="text" placeholder="Nome da atividade:">
+            <input id="Descr" type="text" placeholder="Descrição">
+            <select name="select" id = "select">
+                <option value="Segunda">Segunda</option>
+                <option value="Terça">Terça</option>
+                <option value="Quarta">Quarta</option>
+                <option value="Quinta">Quinta</option>
+                <option value="Sexta">Sexta</option>
+            </select>
+                <input id="timer1" type="time">
+                <input id="timer2" type="time">
+              <input type="button" id="criar" onclick="criarAt()" value="Criar">
+        </div>
+        <div id="atCriada">
+            <ul id="lista"></ul>
+        </div>
+    </body>
+</html>
